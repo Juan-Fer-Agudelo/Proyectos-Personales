@@ -3,19 +3,22 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Proyectos Personales</title>
-    <meta name="description" content="Página base en blanco con barra de navegación y pie de página sencillos para crear proyectos personales." />
-    <meta property="og:title" content="Proyectos Personales" />
-    <meta property="og:description" content="Página base en blanco con barra de navegación y pie de página sencillos para crear proyectos personales." />
+    <title>La habitación de Juan Fer</title>
+    <meta name="description" content="Portafolio interactivo en 3D de Juan Fernando Agudelo Colorado: desarrollador full-stack, automatización e IA y análisis de datos en Medellín, Colombia." />
+    <meta property="og:title" content="La habitación de Juan Fer · Portafolio 3D" />
+    <meta property="og:description" content="Explora mi habitación en 3D: mira mis proyectos, conoce sobre mí, toca el piano y escríbeme." />
     <meta property="og:type" content="website" />
     <meta name="twitter:card" content="summary_large_image" />
+    <meta name="theme-color" content="#ead7ef" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400..600;1,9..40,400..600&family=Plus+Jakarta+Sans:wght@500;600;700&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Nunito:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet" />
   </head>
-  <body class="bg-white text-zinc-900 antialiased selection:bg-zinc-900 selection:text-white">
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
+  <body class="light-theme">
+    <canvas id="webgl" class="experience-canvas"></canvas>
+    <div id="hud"></div>
+    <div id="modals"></div>
+    <div id="loading"></div>
+    <script type="module" src="/src/main.ts"></script>
   </body>
 </html>
-

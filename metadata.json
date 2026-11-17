@@ -1,6 +1,6 @@
 {
-  "name": "Proyectos Personales",
-  "description": "Página base en blanco con barra de navegación y pie de página sencillos para crear proyectos personales.",
+  "name": "Portafolio 3D · Juan Fer Agudelo",
+  "description": "Portafolio interactivo en 3D: una habitación con un monitor que abre un escritorio con ventanas de proyectos, experiencia, habilidades y contacto.",
   "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+  "majorCapabilities": []
 }
