@@ -1,0 +1,6 @@
+{
+  "name": "Proyectos Personales",
+  "description": "Página base en blanco con barra de navegación y pie de página sencillos para crear proyectos personales.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
