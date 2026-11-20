@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poiret+One&family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <title>Juan Fernando Agudelo - Full-Stack Developer</title>
+    <meta
+      name="description"
+      content="Portafolio de Juan Fernando Agudelo, desarrollador full-stack en Medellín. Explora las profundidades y descubre sus proyectos."
+    />
+    <meta property="og:title" content="Juan Fernando Agudelo - Full-Stack Developer" />
+    <meta
+      property="og:image"
+      content="/images/social.png"
+    />
+    <meta
+      property="og:description"
+      content="Portafolio de Juan Fernando Agudelo, desarrollador full-stack en Medellín. Explora las profundidades y descubre sus proyectos."
+    />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="627" />
+    <meta property="og:type" content="website" />
+  </head>
+  <body style="--progress: 0">
+    <button id="audio" style="opacity: 0">
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+    </button>
+    <dialog id="dialog">
+      <div class="content">
+        <p class="description">Juan Fernando Agudelo - personal portfolio</p>
+        <p class="credit">
+          Experience heavily inspired by
+          <a href="https://playdead.com/games/inside/" target="_blank"
+          >INSIDE</a
+          >
+          game by <a href="https://playdead.com" target="_blank">Playdead</a>
+          <br />
+          Built on the open-source portfolio of
+          <a href="https://pawel-brod.com" target="_blank">Paweł Bród</a>
+        </p>
+        <div class="loader_bar"></div>
+        <h1 class="title">echoes from below</h1>
+        <button id="button">Explore</button>
+        
+      </div>
+    </dialog>
+    <div id="mouse-helper" style="opacity: 0">
+      <p class="left-click">MOVE</p>
+      <p class="right-click">POWER</p>
+      <img src="/images/mouse.png" alt="" draggable="false" />
+    </div>
+    <a
+      id="github-link"
+      href="https://github.com/Juan-Fer-Agudelo/Proyectos-Personales"
+      aria-label="View source on GitHub"
+      style="opacity: 0"
+      target="_blank"
+    >
+      <img
+        src="/images/github-mark.svg"
+        alt="View source on GitHub"
+        draggable="false"
+      />
+    </a>
+    <canvas id="canvas"></canvas>
+    <script type="module" src="/main.ts"></script>
+  </body>
+</html>
