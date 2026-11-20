@@ -57,6 +57,11 @@ export const signs: Record<string, { align: "left" | "center"; pieces: SignPiece
       ...job(2, "2024 - 2025", "ANALISTA DE DATOS", "en RENAULT SOFASA"),
     ],
   },
+  // Upper right wall: the hint about the power move.
+  Text001: {
+    align: "center",
+    pieces: ["USA EL", "IMPULSO", "PARA ROMPER", "EL PISO"].map((text, i) => ({ text, x: 0, y: -i * 1.3, size: 1, align: "center" })),
+  },
   // Wall of the shaft: studies.
   Text004: { align: "left", pieces: [{ text: "EDUCACIÓN", x: 0, y: 0, size: 1, underline: true }] },
   Text005: {
